@@ -4,12 +4,8 @@
 ---
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
-2. [Objectives](#2-objectives)
-3. [Project Scope & Tools](#3-project-scope--tools)
-
-5. [Data Workflow](#5-data-workflow)
-6. [Data Model & Schema](#6-data-model--schema)
-  
+2. [Project Scope & Tools](#2-project-scope--tools)
+3. [Data Workflow](#3-data-workflow)
 8. [Analysis & Metrics](#8-analysis--metrics)
 9. [Key Insights](#9-key-insights)
 10. [Recommendations](#10-recommendations)
@@ -20,20 +16,21 @@
 
 ---
 ## 1. Project Overview
-Artificial Intelligence (AI) integration is becoming one of the most urgent conversations in Nigeria's healthcare system. **But are the clinicians expected to use these systems daily actually part of that conversation?** <br>
-This project analyzed survey responses from 102 clinical nurses in a Federal Teaching Hospital in Nigeria to determine whether frontline healthcare workers are genuinely being prepared for AI adoption, or simply expected to adapt to systems built without them.<br> 
-The analysis examined AI knowledge levels, adoption readiness, comfortability with AI tools, job displacement concerns, and perceptions of institutional support across demographic groups including age, gender, and years of experience.<br> 
-The findings showed that **despite 87 out of 102 nurses demonstrating moderate to high AI knowledge levels**, **54% feared job displacement** and a large proportion felt institutional support and training for AI integration was inadequate, suggesting that the real barrier to healthcare AI adoption in Nigeria may not be awareness at all, but institutional preparedness.
+Clinicians are at the center of every healthcare system, yet rarely at the center of conversations around the technologies being built for them. As AI integration grows more urgent in Nigeria's healthcare sector, one question kept standing out to me **are frontliners actually being prepared for this transition, or simply expected to adapt to systems built without them?**
+
+This project analyzes AI perception and adoption readiness among clinical nurses in Nigeria's healthcare system.<br> The dataset was sourced from survey responses collected from 102 clinical nurses in a Federal Teaching Hospital in Nigeria, cleaned, structured, and analyzed in Microsoft Excel using Pivot Tables and Power Query, with an interactive dashboard built to allow dynamic exploration across demographic filters including age, gender, and years of experience.
+
+Insights and recommendations are provided on the following key areas:
+
+**Category 1:** AI Knowledge Levels Among Clinical Nurses <br>
+**Category 2:** Adoption Readiness and Comfortability With AI Tools<br>
+**Category 3:** Job Displacement Concerns<br>
+**Category 4:** Perception of Institutional Support and Training on AI<br>
+
+Despite 87 out of 102 nurses demonstrating moderate to high AI knowledge levels, 54% expressed fears about job displacement and a large proportion felt institutional support for AI integration was inadequate. Younger nurses (age 20-30) showed significantly higher readiness and comfortability with AI tools, pointing to workforce demographics as a variable implementation strategies cannot afford to ignore.
 
 ---
-## 2. Objectives
-1. Determine the current level of AI knowledge among clinical nurses and what it reveals about workforce readiness for healthcare AI integration in Nigeria.
-2. Explore how ready and comfortable clinical nurses are with adopting AI tools in practical healthcare settings.
-3. Identify whether job displacement concerns exist among clinical nurses and how they vary across demographic groups.
-4. Assess how nurses perceive institutional support and training availability, and whether it shapes their readiness for AI adoption
-
----
-## 3. Project Scope & Tools
+## 2. Project Scope & Tools
 ### Scope
 | Dimension | Details |
 |-----------|---------|
@@ -53,7 +50,7 @@ The findings showed that **despite 87 out of 102 nurses demonstrating moderate t
 | Documentation | Markdown, Medium|
 
 ---
-## 5. Data Workflow
+## 3. Data Workflow
 ```
 [Google Forms Survey]
       ↓
