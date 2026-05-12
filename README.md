@@ -7,12 +7,9 @@
 2. [Dashboard Preview](#2-dashboard-preview)
 3. [Project Scope & Tools](#3-project-scope--tools)
 4. [Data Workflow](#4-data-workflow)
-9. [What the Data Revealed](#5-what-the-data-revealed)
-10. [Recommendations](#10-recommendations)
-11. [Assumptions & Limitations](#11-assumptions--limitations)
-12. [Future Enhancements](#12-future-enhancements)
-13. [Deliverables](#13-deliverables)
-14. [Author](#14-author)
+5. [What the Data Revealed](#5-what-the-data-revealed)
+6. [Assumptions & Limitations](#6-assumptions--limitations)
+7. [Author](#7-author)
 
 ---
 ## 1. Project Overview
@@ -90,7 +87,7 @@ Below is a snapshot of the interactive dashboard developed to analyze AI adoptio
   </p>
 This immediately challenged a common assumption: that healthcare workers in Nigeria are largely unfamiliar with AI. Awareness is already growing, which means the more urgent conversation may no longer be about introducing AI to the workforce but may now be about what comes after awareness. Practical integration, institutional support, and building the confidence to actually use these tools in daily clinical practice are important.
 
-### 2. Younger Nurses Were Significantly More Ready and Comfortable With AI Tools
+### Younger Nurses Were Significantly More Ready and Comfortable With AI Tools
 > Nurses in the 20–30 age group showed the highest readiness and comfortability with AI tools, with a noticeably more positive response compared to older age groups. Readiness declined progressively across the 30–40, 40–50, and above 50 age groups, where negative responses were more dominant.
 <p align="center">
   <img src="visuals/Readiness for AI adoption.png" width="550"/>
@@ -119,80 +116,28 @@ This was one of the more surprising findings in the dataset. It suggests that cl
 This was the most important finding in the entire project. Despite relatively high awareness levels and lower than expected job displacement fears, more than half of nurses did not feel the institutional infrastructure to support AI adoption was there. Willingness without support is not adoption. It is stalled potential. The more urgent question may no longer be whether nurses are ready for AI. It may be whether healthcare institutions are genuinely ready to support their people through this transition. Because the data suggests the bottleneck may not be the individuals, it may be the institutions.
 
 ---
-## 11. Assumptions & Limitations
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  Assumption: "Transaction records were assumed to be complete for all five regions.
-               No validation was performed against source system record counts."
-  Limitation: "The analysis cannot distinguish between returns initiated by
-               the customer vs. returns initiated by the business (e.g., recalls).
-               If business-initiated returns are concentrated in Region A, the
-               return rate finding may reflect a policy decision, not a quality issue."
-
-  WHAT TO AVOID:
-  ❌ Leaving this section blank or writing "None known."
-     Every project has limitations. Documenting them is a sign of
-     analytical maturity - not a confession of failure.
--->
-
+## 6. Assumptions & Limitations
 ### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
-
+1. Respondents answered all survey questions honestly and to the best of their knowledge.
+2. The sample, though drawn from a single institution, was considered reasonably representative of the nursing workforce within that hospital.
+3. Responses collected across the two-month period were treated as reflecting a stable perception, with no significant external events assumed to have shifted opinions during data collection.
+4. Categorization of responses into positive and negative groupings was applied consistently across all variables.
 ### Limitations
-- [What gaps exist in the data?]
-- [What analysis was out of scope but could affect interpretation?]
-- [What would a more rigorous version of this project include?]
-- [Are there known biases in the data source or collection method?]
+1. Findings are based on a single Federal Teaching Hospital and may not represent clinical nurses across other institutions or regions in Nigeria.
+2. The sample size of 102 limits how broadly the findings can travel. A larger multi-institution study would surface patterns this dataset cannot.
+3. Future versions would include open-ended qualitative questions to capture not just what nurses felt but why.
 
-> *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
+---
+## 7. Author
+#### Faith Obamomi
+A data analyst with a strong interest in healthcare analytics, public health, and data-driven decision. This project reflects a core belief that data should do more than describe what happened. It should help people make better decisions.
+- 🔗 [Connect with me on Linkedin](https://www.linkedin.com/in/faithobamomi/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bobji4OhATZCfREtzgPH5kQ%3D%3D)
+  
+- 💼 Explore my project on [Github](https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fmaps.apple.com%2Fplace%3Faddress%3Dhttps%253A%252F%252Fgithub.com%252FFaithObamomi.png&urlhash=-91U&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bobji4OhATZCfREtzgPH5kQ%3D%3D)
+  
+- 📧 Faithobamomi10@outlook.com
 
 ---
 
-## 12. Future Enhancements
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Automate the monthly data pull from the POS export folder using
-      a scheduled Python script, replacing the current manual process."
-  ✅ "Expand the return rate analysis to include carrier-level data,
-      which was unavailable in this dataset but exists in the logistics system."
-
-  WHAT TO AVOID:
-  ❌ "Add a machine learning model."
-     (Vague, and disconnected from the actual findings of this project.)
-  ❌ Listing aspirational features that don't follow logically from the work.
--->
-
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
-
----
-
-## 13. Deliverables
-
-| Deliverable | Description | Location |
-|-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-
----
-
-## 14. Author
-
-**[Your Name]**
-[Your role or title - current or target]
-
-- 🔗 [LinkedIn URL]
-- 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
-
----
-
-*Last updated: [Month YYYY]*
+*Last updated: [May, 2026]*
 
