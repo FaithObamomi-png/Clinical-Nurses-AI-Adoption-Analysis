@@ -4,10 +4,10 @@
 ---
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
-2. [Project Scope & Tools](#2-project-scope--tools)
-3. [Data Workflow](#3-data-workflow)
-8. [Analysis & Metrics](#8-analysis--metrics)
-9. [Key Insights](#9-key-insights)
+2. [Dashboard Preview](#2-dashboard-preview)
+3. [Project Scope & Tools](#3-project-scope--tools)
+4. [Data Workflow](#4-data-workflow)
+9. [What the Data Revealed](#5-what-the-data-revealed)
 10. [Recommendations](#10-recommendations)
 11. [Assumptions & Limitations](#11-assumptions--limitations)
 12. [Future Enhancements](#12-future-enhancements)
@@ -24,20 +24,24 @@ Insights and recommendations are provided on the following key areas:
 
 **Category 1:** AI Knowledge Levels Among Clinical Nurses <br>
 **Category 2:** Adoption Readiness and Comfortability With AI Tools<br>
-**Category 3:** Job Displacement Concerns<br>
-**Category 4:** Perception of Institutional Support and Training on AI<br>
+**Category 3:** Perception of AI Across Clinical Experience Levels<br>
+**Category 4:** Job Displacement Concerns<br>
+**Category 5:** Perception of Institutional Support and Training for AI Integration<br>
 
 Despite 87 out of 102 nurses demonstrating moderate to high AI knowledge levels, 54% expressed fears about job displacement and a large proportion felt institutional support for AI integration was inadequate. Younger nurses (age 20-30) showed significantly higher readiness and comfortability with AI tools, pointing to workforce demographics as a variable implementation strategies cannot afford to ignore.
 
 ---
-## Dashboard Preview & Interactive Access
-
+## 2. Dashboard Preview
 Below is a snapshot of the interactive dashboard developed to analyze AI adoption readiness among clinical nurses in Nigeria
 <p align="center">
-  <img src="images/dashboard-preview.png" width="850"/>
-</p>
-[Explore the full Interactive Dashboard here](https://1drv.ms/x/c/3CBB0028DAB7590A/IQBivp5j6P01SKkDEgpJQ15gAaKsk_I9OH-af3NtuZr3Vr8?e=XNShsi)
-## 2. Project Scope & Tools
+  <img src="visuals/Clinical Nurses AI Analysis Dashboard.png" width="850"/>
+  </p>
+    
+[Explore the full Interactive Dashboard here](https://1drv.ms/x/c/3CBB0028DAB7590A/IQBivp5j6P01SKkDEgpJQ15gAaKsk_I9OH-af3NtuZr3Vr8?e=w8Yxe3)
+
+
+---
+## 3. Project Scope & Tools
 ### Scope
 | Dimension | Details |
 |-----------|---------|
@@ -54,10 +58,10 @@ Below is a snapshot of the interactive dashboard developed to analyze AI adoptio
 | Analysis | Microsoft Excel, Pivot Tables, Response Categorization |
 | Visualization | Microsoft Excel, Interactive Slicers, Charts |
 | Version Control |GitHub |
-| Documentation | Markdown, Medium|
+| Documentation | Markdown|
 
 ---
-## 3. Data Workflow
+## 4. Data Workflow
 ```
 [Google Forms Survey]
       ↓
@@ -78,82 +82,43 @@ Below is a snapshot of the interactive dashboard developed to analyze AI adoptio
 6. **Output:** An interactive Excel dashboard with dynamic slicers, supported by a published Medium article and this GitHub project documentation.
 
 ---
-## 8. Analysis & Metrics
+## 5. What the Data Revealed
+### Most Nurses Already Know About AI.But Knowing Is Not the Same as Being Ready
+> 44 nurses demonstrated high AI knowledge levels, 43 moderate, and only 15 low, meaning 85 out of 102 nurses already had moderate to high AI knowledge levels.
+<p align="center">
+  <img src="visuals/AI knowledge levels.png" width="550"/>
+  </p>
+This immediately challenged a common assumption: that healthcare workers in Nigeria are largely unfamiliar with AI. Awareness is already growing, which means the more urgent conversation may no longer be about introducing AI to the workforce but may now be about what comes after awareness. Practical integration, institutional support, and building the confidence to actually use these tools in daily clinical practice are important.
 
-<!--
-  Explain what you measured and how - before you share what you found.
+### 2. Younger Nurses Were Significantly More Ready and Comfortable With AI Tools
+> Nurses in the 20–30 age group showed the highest readiness and comfortability with AI tools, with a noticeably more positive response compared to older age groups. Readiness declined progressively across the 30–40, 40–50, and above 50 age groups, where negative responses were more dominant.
+<p align="center">
+  <img src="visuals/Readiness for AI adoption.png" width="550"/>
+  </p>
+This pattern likely reflects stronger baseline familiarity with digital technologies among younger nurses but the more important implication is practical. Readiness is not evenly distributed across the workforce, and a uniform rollout strategy will not serve a team where different groups are starting from very different places. Effective implementation will require training and onboarding approaches tailored to where each demographic group actually is, not where we assume they should be.
 
-  WHAT GOOD LOOKS LIKE:
-  Metric: "Customer Return Rate"
-  Definition: "Number of transactions flagged as returns divided by total
-               transactions, calculated at product-category and regional grain."
-  Why It Matters: "Return rate - not sales volume - was hypothesised to
-                  explain regional revenue gaps. This metric tests that hypothesis."
+### More Experience Did Not Mean More Openness to AI
+> Nurses with 2–10 years of clinical experience showed the most mixed perception toward AI, with a relatively higher proportion of positive responses compared to other experience groups. Nurses with 11–20 and 21–30 years of experience as well as those with less than one year of experience showed predominantly negative perception.
+<p align="center">
+  <img src="visuals/AI Perception against clinical experience.png" width="550"/>
+  </p>
+This is a revealing pattern. More experienced nurses, who arguably have the deepest understanding of clinical workflows, were also among the most skeptical about AI integration. This may reflect a clearer awareness of the practical challenges AI would introduce into established clinical routines, and it reinforces the need for implementation strategies that genuinely engage experienced staff rather than simply deploying technology around them.
 
-  WHAT TO AVOID:
-  ❌ Defining a metric only in code: SUM(returns) / COUNT(transaction_id)
-     That's an implementation. Write the plain-language definition here.
-     Both belong in your project - the definition in the README,
-     the implementation in the code.
--->
+### Job Displacement Concerns Were Lower Than Expected
+> 92% of respondents showed a negative perception of job displacement risk, meaning the majority did not fear that AI would cost them their jobs. Only approximately 8% expressed concern about displacement.
+<p align="center">
+  <img src="visuals/Job displacement Concerns.png" width="550"/>
+  </p>
+This was one of the more surprising findings in the dataset. It suggests that clinical nurses in this institution may already have a grounded understanding of AI as a supportive tool rather than a replacement threat. That is actually a strong foundation for implementation. A workforce that is not paralyzed by fear of replacement may be significantly more open to engaging with AI tools when the right support structures are in place.
 
-### Analytical Approach
-
-[Describe how you approached the analysis. Were you exploring patterns? Testing a hypothesis? Building and validating a pipeline? Be honest about your method - exploratory work is valid, just call it that.]
-
-### Key Metrics Defined
-
-| Metric | Plain-Language Definition | Why It Matters |
-|--------|--------------------------|----------------|
-| `[Metric 1]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 2]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 3]` | [What it measures, in one sentence] | [What decision or question it answers] |
-
-### Methods Used
-
-- [e.g., Descriptive statistics - distribution, central tendency, outlier detection]
-- [e.g., Trend analysis across [time period]]
-- [e.g., Segmentation / group comparison by [dimension]]
-- [e.g., Correlation analysis between [variable A] and [variable B]]
-- [e.g., SQL window functions for [specific aggregation]]
-- [e.g., Custom aggregation or transformation logic in [tool]]
+### Awareness Was High. Institutional Support Was Not
+> 54% of respondents disagreed that adequate technical support and training for AI integration was available, while 46% agreed it was available.
+<p align="center">
+  <img src="visuals/Availability of Support and Training  for AI integration.png" width="550"/>
+  </p>
+This was the most important finding in the entire project. Despite relatively high awareness levels and lower than expected job displacement fears, more than half of nurses did not feel the institutional infrastructure to support AI adoption was there. Willingness without support is not adoption. It is stalled potential. The more urgent question may no longer be whether nurses are ready for AI. It may be whether healthcare institutions are genuinely ready to support their people through this transition. Because the data suggests the bottleneck may not be the individuals, it may be the institutions.
 
 ---
-
-## 9. Key Insights
-
-<!--
-  Findings + implications. Not just what happened - what it means.
-
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Return rates, not sales volume, explain Region A's underperformance.
-      Region A's return rate on home goods was 34% - more than double the
-      company average. Revenue was not lost at the point of sale; it was
-      lost post-sale through refunds. This points to a fulfilment or
-      product quality issue specific to that region, not a demand problem."
-
-  WHAT TO AVOID:
-  ❌ "Region A had lower revenue than other regions in Q4."
-     (That's an observation. It describes what happened.
-      An insight says what it means and where to look next.)
-
-  Aim for 3–6 insights. Quality over quantity.
--->
-
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
-
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
-
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
-
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
-
----
-
 ## 10. Recommendations
 
 <!--
