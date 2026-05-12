@@ -133,7 +133,7 @@ This was the most important finding in the entire project. Despite relatively hi
 A data analyst with a strong interest in healthcare analytics, public health, and data-driven decision. This project reflects a core belief that data should do more than describe what happened. It should help people make better decisions.
 - 🔗 [Connect with me on Linkedin](https://www.linkedin.com/in/faithobamomi/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bobji4OhATZCfREtzgPH5kQ%3D%3D)
   
-- 💼 Explore my project on [Github](https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fmaps.apple.com%2Fplace%3Faddress%3Dhttps%253A%252F%252Fgithub.com%252FFaithObamomi.png&urlhash=-91U&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bobji4OhATZCfREtzgPH5kQ%3D%3D)
+- 💼 Explore my project on [Github]((https://github.com/FaithObamomi-png))
   
 - 📧 Faithobamomi10@outlook.com
 
