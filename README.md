@@ -45,7 +45,7 @@ Below is a snapshot of the interactive dashboard developed to analyze AI adoptio
 ### Scope
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** |Survey responses from 102 clinical nurses in a single Federal Teaching Hospital in Nigeria, covering AI knowledge levels, adoption readiness, comfortability with AI tools, job displacement concerns, and perception of institutional support and training |
+| **In Scope** |Survey responses from 102 clinical nurses in a single Federal Teaching Hospital in Nigeria, covering AI knowledge levels, adoption readiness, Prcepton of AI, job displacement concerns, and perception of institutional support and training |
 | **Out of Scope** |Other healthcare professional groups such as doctors, pharmacists, and lab scientists were excluded. The analysis focuses specifically on clinical nurses as a defined frontline group. Institutional data such as hospital AI budgets, and training records were also excluded as they were outside the scope of the study  |
 | **Time Period** |Data collection spanned two months (January 2026 to March 2026) to account for variation in nursing shift patterns and ensure adequate response coverage across the workforce|
 | **Granularity** | Each row represents a single nurse's survey response. Responses were categorized into positive and negative groupings across each variable to enable pattern analysis and meaningful comparison across demographic segments |
@@ -76,7 +76,7 @@ Below is a snapshot of the interactive dashboard developed to analyze AI adoptio
 
 1. **Source:** Single Google Forms questionnaire administered to 102 clinical nurses across rotating shifts in a Federal Teaching Hospital in Nigeria. Data collected over two months, January to March 2026.
 2. **Ingestion:** Completed responses were exported directly from Google Forms into Microsoft Excel as a single worksheet containing 102 rows, with one row per nurse and each column mapped to a survey variable.
-3. **Cleaning:** Inconsistent entries across categorical variables were resolved. Only variables directly aligned with the four project objectives were retained, with out-of-scope survey questions excluded from the analysis entirely.
+3. **Cleaning:** Inconsistent entries across categorical variables were resolved. Only variables directly aligned with the five project objectives were retained, with out-of-scope survey questions excluded from the analysis entirely.
 4. **Transformation:**  The knowledge section questions were scored per respondent and aggregated into a composite score, then categorized into three tiers: High, Moderate, and Low. Responses across all remaining variables were categorized, and demographic variables including age and years of experience were binned into defined ranges to support segmentation.
 5. **Analysis:** Descriptive statistics and frequency distributions were generated across all four variable categories. Demographic segmentation by age group and years of experience was applied to identify meaningful differences in readiness, comfortability, and perception across the workforce.
 6. **Output:** An interactive Excel dashboard with dynamic slicers, supported by a published Medium article and this GitHub project documentation.
@@ -119,35 +119,6 @@ This was one of the more surprising findings in the dataset. It suggests that cl
 This was the most important finding in the entire project. Despite relatively high awareness levels and lower than expected job displacement fears, more than half of nurses did not feel the institutional infrastructure to support AI adoption was there. Willingness without support is not adoption. It is stalled potential. The more urgent question may no longer be whether nurses are ready for AI. It may be whether healthcare institutions are genuinely ready to support their people through this transition. Because the data suggests the bottleneck may not be the individuals, it may be the institutions.
 
 ---
-## 10. Recommendations
-
-<!--
-  Action-oriented. Addressed to a real audience.
-  Tied explicitly to the insight that supports each one.
-
-  WHAT GOOD LOOKS LIKE:
-  Priority: High
-  Recommendation: "Conduct a fulfilment audit for home goods deliveries
-                   in Region A - specifically investigating whether returns
-                   correlate with a particular warehouse, carrier, or SKU batch."
-  Based On: Insight 1 - return rate anomaly in Region A
-  Owner: Operations / Supply Chain team
-
-  WHAT TO AVOID:
-  ❌ "Improve the return rate."
-     (Not actionable. Doesn't say who, how, or where to start.)
-  ❌ "Further analysis is needed."
-     (This is a placeholder, not a recommendation.)
--->
-
-| Priority | Recommendation | Based On | Suggested Owner |
-|----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
-
----
-
 ## 11. Assumptions & Limitations
 
 <!--
@@ -224,4 +195,4 @@ This was the most important finding in the entire project. Despite relatively hi
 ---
 
 *Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
+
