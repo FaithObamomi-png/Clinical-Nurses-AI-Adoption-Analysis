@@ -30,6 +30,13 @@ Insights and recommendations are provided on the following key areas:
 Despite 87 out of 102 nurses demonstrating moderate to high AI knowledge levels, 54% expressed fears about job displacement and a large proportion felt institutional support for AI integration was inadequate. Younger nurses (age 20-30) showed significantly higher readiness and comfortability with AI tools, pointing to workforce demographics as a variable implementation strategies cannot afford to ignore.
 
 ---
+## Dashboard Preview & Interactive Access
+
+Below is a snapshot of the interactive dashboard developed to analyze AI adoption readiness among clinical nurses in Nigeria
+<p align="center">
+  <img src="images/dashboard-preview.png" width="850"/>
+</p>
+[Explore the full Interactive Dashboard here](https://1drv.ms/x/c/3CBB0028DAB7590A/IQBivp5j6P01SKkDEgpJQ15gAaKsk_I9OH-af3NtuZr3Vr8?e=XNShsi)
 ## 2. Project Scope & Tools
 ### Scope
 | Dimension | Details |
